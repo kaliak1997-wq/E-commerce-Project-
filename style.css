@@ -118,6 +118,11 @@ li {
   opacity: 1;
 }
 
+.menu--open {
+  max-height: 100vh;
+  overflow-y: hidden;
+}
+
 .menu__links {
   display: flex;
   flex-direction: column;
@@ -406,9 +411,9 @@ footer {
 }
 
 @media (max-width: 550px) {
-  .nav__links
+  .nav__links {
    display: none;
-
+  }
   .btn__menu {
     display: block;
   }
